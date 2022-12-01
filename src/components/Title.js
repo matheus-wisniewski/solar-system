@@ -11,12 +11,8 @@ class Title extends Component {
   }
 }
 
-Title.defaultProps = {
-  headline: undefined,
-};
-
 Title.propTypes = {
-  headline: PropTypes.string,
+  headline: PropTypes.string.isRequired,
 };
 
 export default Title;
