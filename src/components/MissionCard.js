@@ -19,7 +19,7 @@ class MissionCard extends Component {
 MissionCard.propTypes = {
   name: PropTypes.string.isRequired,
   year: PropTypes.string.isRequired,
-  country: PropTypes.string.isRequired,
+  country: PropTypes.node.isRequired,
   destination: PropTypes.string.isRequired,
 
 };
