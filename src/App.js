@@ -2,16 +2,24 @@ import React from 'react';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
 import Mission from './components/Missions';
+import './App.css';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <Header />
+      <div className="main">
+        <header className="header-section">
+          <Header />
+        </header>
 
-        <SolarSystem />
+        <section className="planet-section">
+          <SolarSystem />
+        </section>
 
-        <Mission />
+        <section className="missions-section">
+          <Mission />
+        </section>
+
       </div>
     );
   }

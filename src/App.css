@@ -1,3 +1,76 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100&display=swap'); 
+
+* {
+  color: white;
+  margin: 0;
+}
+
+.title-component { 
+  font-size: 50px;
+  font-family: 'Epilogue', sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.main {
+  background: url("images/background.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container {
+  font-family: 'Epilogue', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.header-container h1 {
+  font-size: 50px;
+  font-family: 'Epilogue', sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.planets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.planets-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.planets-container img {
+  width: 150px;
+}
+
+.planets-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.missions-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.missions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
 }
