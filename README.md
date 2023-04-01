@@ -1,10 +1,5 @@
 # :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+
+# Olá, boas vindas ao repositório do projeto Solar System!
+
+Esse foi meu primeiro projeto em React, desenvolvido na Seção 2 do módulo Front-End no curso de Desenvolvimento Web da @Trybe onde testei meus conhecimentos sobre JSX, criação de componentes de classe, o método render para renderizar os componentes, uso de props e suas validações com PropTypes!  
