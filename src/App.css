@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100&display=swap'); 
 
 * {
-  color: white;
   margin: 0;
+  color: #FFFFFF;
 }
 
 .title-component { 
@@ -56,21 +56,4 @@
 .planets-section {
   display: flex;
   flex-direction: row;
-}
-
-.missions-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.missions {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  box-sizing: border-box;
-  background: rgba(24, 26, 37, 0.5);
-  mix-blend-mode: hard-light;
-  border: 1px solid #FFFFFF;
-  border-radius: 17px;
 }

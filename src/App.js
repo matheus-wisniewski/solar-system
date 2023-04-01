@@ -8,15 +8,15 @@ class App extends React.Component {
   render() {
     return (
       <div className="main">
-        <header className="header-section">
+        <header>
           <Header />
         </header>
 
-        <section className="planet-section">
+        <section>
           <SolarSystem />
         </section>
 
-        <section className="missions-section">
+        <section>
           <Mission />
         </section>
 
